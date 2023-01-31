@@ -1,0 +1,28 @@
+creating React app
+npx create-react-app NAME
+
+
+how to start React App
+1.go to location of js file
+2. write command 
+
+
+npm start
+
+-----------------------------------
+
+importing CSS
+inside js file
+
+import './NAME.css';
+
+importing js file into another js file
+
+(inside js file we want to use )
+import Button(NAME) from './components/Buttons/Button'(location);
+
+
+
+exporting out the js file with NAME
+
+export default Button(NAME);

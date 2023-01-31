@@ -1,0 +1,12 @@
+.product-info {
+        
+  margin-top: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 920px) {
+  .product-card {
+    flex: 1 21%;
+  }
+}
