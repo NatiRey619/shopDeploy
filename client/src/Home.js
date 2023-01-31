@@ -35,10 +35,13 @@ const Home = () => {
 
   const GetAllProducts = async () => {
     try {
-      // const productsURL = "url from Render site after connecting to github"; // get products from Render site
+      // const productsURL =
+      //   "https://serverdeploy-jpzd.onrender.com/api/products/getProducts"; // get products from Render site
       // const urlProduct = "http://localhost:8000/api/products/getProducts"; // get products from localhost
-      const productsReponse = await fetch("https://fakestoreapi.com/products");
-      const productsData = await productsReponse.json();
+      const productsURL = await fetch(
+        "https://serverdeploy-jpzd.onrender.com/api/products/getProducts"
+      );
+      const productsData = await productsURL.json();
       setFilteredProducts(productsData);
       setData(productsData);
 
