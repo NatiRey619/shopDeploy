@@ -33,6 +33,9 @@ const Header = () => {
         <Link to={"YesSir"} style={linkStyle}>
           YesSir
         </Link>
+        <Link to={"AdminPage"} style={linkStyle}>
+          Admin
+        </Link>
       </NavUnlisted>
     </div>
   );
